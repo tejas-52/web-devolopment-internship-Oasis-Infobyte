@@ -1,0 +1,182 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+}
+
+.search-bar input[type="text"] {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    margin-right: 0.5rem;
+}
+
+.search-bar button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.heading {
+    text-align: center;
+    }
+
+    
+    .child {
+        width: 500px;  /* Or whatever */
+        height: 500px; /* Or whatever */
+        margin: auto;  /* Magic! */
+        background: #ffffff;
+        display: flex;
+        flex: 1 1 100%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    h2{
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+    .myPageBreak{
+        margin: 10px 0 0 0;
+        padding: 10px 0;
+        border-top: 1px dotted #c5c5c5;
+    }
+    .camera {
+        width: 650;  /* Or whatever */
+        height: 500px; /* Or whatever */
+        margin: auto;  /* Magic! */
+        background: #ffffff;
+        display: flex;
+        flex: 1 1 100%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .battery {
+        width: 650;  /* Or whatever */
+        height: 500px; /* Or whatever */
+        margin: auto;  /* Magic! */
+        background: #ffffff;
+        display: flex;
+        flex: 1 1 100%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .display {
+        width: 650;  /* Or whatever */
+        height: 500px; /* Or whatever */
+        margin: auto;  /* Magic! */
+        background: #ffffff;
+        display: flex;
+        flex: 1 1 100%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .specs{
+        text-align: center;
+    }
+    #pricing {
+        text-align: center; /* Center align the pricing section */
+        margin-top: 2rem; /* Add some space above the pricing section */
+    }
+    
+    #pricing h2 {
+        color: #1a73e8; /* Google blue for heading */
+        font-size: 2rem; /* Larger font size for the heading */
+    }
+    .text-center {
+        text-align: center;
+      }
+      button[type="submit"] {
+        padding: 1rem 2rem; /* Increase padding for a larger button */
+        background-color: #1a73e8; /* Blue for the button */
+        color: #fff; /* White text color */
+        border: none;
+        border-radius: 5px;
+        font-size: 1.1rem; /* Slightly larger font size for the button */
+        cursor: pointer;
+        transition: background-color 0.3s; /* Smooth color transition on hover */
+    }
+    
+    button[type="submit"]:hover {
+        background-color: #155bb5; /* Darker blue on hover */
+    }
+    .reviews blockquote {
+        background: #fff;
+        padding: 1rem;
+        margin: 1rem auto;
+        max-width: 600px;
+        border-left: 5px solid #ff9a9e;
+        font-style: italic;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .reviews cite {
+        display: block;
+        margin-top: 0.5rem;
+        font-weight: bold;
+        color: #333;
+    }
+    .insta{
+        width: 20px;  /* Or whatever */
+        height: 20px; /* Or whatever */
+        margin: auto;  /* Magic! */
+        background: #ffffff;
+        display: flex;
+        flex: 1 1 100%;
+    }      
+    .username{
+        text-align: center;
+    }
+    .privacyp{
+        text-align: center;
+        margin-top: 1rem;
+        color: #ddd; /* Dark white color */
+        font-weight: bold;
+        
+    }
+    footer {
+        background-color: #000;
+        color: #fff;
+        padding: 2rem 0;
+    }
