@@ -63,9 +63,9 @@ nav ul li a {
 
     
     .child {
-        width: 500px;  /* Or whatever */
-        height: 500px; /* Or whatever */
-        margin: auto;  /* Magic! */
+        width: 500px;
+        height: 500px;
+        margin: auto; 
         background: #ffffff;
         display: flex;
         flex: 1 1 100%;
@@ -86,27 +86,27 @@ nav ul li a {
         border-top: 1px dotted #c5c5c5;
     }
     .camera {
-        width: 650;  /* Or whatever */
-        height: 500px; /* Or whatever */
-        margin: auto;  /* Magic! */
+        width: 650;  
+        height: 500px; 
+        margin: auto; 
         background: #ffffff;
         display: flex;
         flex: 1 1 100%;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
     .battery {
-        width: 650;  /* Or whatever */
-        height: 500px; /* Or whatever */
-        margin: auto;  /* Magic! */
+        width: 650;  
+        height: 500px; 
+        margin: auto;  
         background: #ffffff;
         display: flex;
         flex: 1 1 100%;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
     .display {
-        width: 650;  /* Or whatever */
-        height: 500px; /* Or whatever */
-        margin: auto;  /* Magic! */
+        width: 650; 
+        height: 500px; 
+        margin: auto; 
         background: #ffffff;
         display: flex;
         flex: 1 1 100%;
@@ -116,30 +116,30 @@ nav ul li a {
         text-align: center;
     }
     #pricing {
-        text-align: center; /* Center align the pricing section */
-        margin-top: 2rem; /* Add some space above the pricing section */
+        text-align: center; 
+        margin-top: 2rem; 
     }
     
     #pricing h2 {
-        color: #1a73e8; /* Google blue for heading */
-        font-size: 2rem; /* Larger font size for the heading */
+        color: #1a73e8;
+        font-size: 2rem; 
     }
     .text-center {
         text-align: center;
       }
       button[type="submit"] {
-        padding: 1rem 2rem; /* Increase padding for a larger button */
-        background-color: #1a73e8; /* Blue for the button */
-        color: #fff; /* White text color */
+        padding: 1rem 2rem; 
+        background-color: #1a73e8; 
+        color: #fff;
         border: none;
         border-radius: 5px;
-        font-size: 1.1rem; /* Slightly larger font size for the button */
+        font-size: 1.1rem;
         cursor: pointer;
-        transition: background-color 0.3s; /* Smooth color transition on hover */
+        transition: background-color 0.3s;
     }
     
     button[type="submit"]:hover {
-        background-color: #155bb5; /* Darker blue on hover */
+        background-color: #155bb5; 
     }
     .reviews blockquote {
         background: #fff;
@@ -158,9 +158,9 @@ nav ul li a {
         color: #333;
     }
     .insta{
-        width: 20px;  /* Or whatever */
-        height: 20px; /* Or whatever */
-        margin: auto;  /* Magic! */
+        width: 20px; 
+        height: 20px;
+        margin: auto;
         background: #ffffff;
         display: flex;
         flex: 1 1 100%;
@@ -171,7 +171,7 @@ nav ul li a {
     .privacyp{
         text-align: center;
         margin-top: 1rem;
-        color: #ddd; /* Dark white color */
+        color: #ddd;
         font-weight: bold;
         
     }
