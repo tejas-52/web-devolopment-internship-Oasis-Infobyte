@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio web page</title>
+    <link rel="stylesheet" href="portfolio webpage.css">
+</head>
+<body>
+    <header>
+        <h1>MY PORTFOLIO</h1>
+        <div class="myPageBreak"></div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skill1">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="myPageBreak"></div>
+
+    <section id="home">
+        <h2>Welcome to My Portfolio</h2>
+    </section>
+    <div class="imagecontainer">
+        <img class="myphoto" src="https://i.imgur.com/ymnx0zM.jpg" alt="myphoto">
+    </div>
+    <h3 class="name">Tejas Jagdale</h3>
+    <div class="myPageBreak"></div>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I’m Tejas Jagdale, a passionate student based in Pune, Maharashtra, India. <br> I am currently studying for a Bachelor's degree in Computer Science. <br> With a blend of creativity and technical expertise, I thrive on turning ideas into reality. <br> Here’s a glimpse into my journey:</p>
+    </section>
+    <div class="myPageBreak"></div>
+    <section id="skill1">
+        <h2>Skills</h2>
+        <div class="skill">
+          <ul style="list-style-type:none;">
+            <li>German Language (A2)</li>
+            <li>Python (Programming Language)</li>
+            <li>C (Programming Language)</li>
+            <li>C++</li>
+            <li>C#</li>
+            <li>.NET Framework</li>
+            <li>ASP.NET</li>
+            <li>HTML5</li>
+            <li>Cascading Style Sheets (CSS)</li>
+            <li>SQL</li>
+            <li>PL/SQL</li>
+            <li>RDBMS</li>
+            <li>Data Warehousing</li>
+            <li>Microsoft Office</li>
+            <li>Microsoft Excel</li>
+            <li>Artificial Intelligence for Business</li>
+            <li>Search Engine Technology</li>
+            <li>Video Editing</li>
+          </ul>
+        </div>
+    </section>
+    <div class="myPageBreak"></div>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Web Development:</h3>
+            <p>1. Landing page of iPhone 15 plus <br>
+               2. Portfolio page <br>
+                3. Temperature Converter website</p>
+            <h3>Data Science:</h3>
+            <p>1. Bank Customer Churn Model.</p>
+        </div>
+    </section>
+    <div class="myPageBreak"></div>
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="https://drive.google.com/file/d/1drRtfmf3IAxHtuwXyu-Wp4YFBLq1hKqb/view?usp=drive_link" download>Download My Resume</a>
+    </section>
+    <div class="myPageBreak"></div>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Full Name: Tejas Jagdale <br>
+            Email Address: tejasjagdale56@gmail.com <br>
+            Phone Number: 9881319171</p>
+            <img class="insta" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png" alt="">
+            @iamtejas.j
+            <p>.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Tejas Jagdale</p>
+    </footer>
+
+</body>
+</html>
